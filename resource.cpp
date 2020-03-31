@@ -124,12 +124,7 @@ int main()
 		
 		
 		//if all satisfied
-		for (i=0;i<m;i++)
-		{
-			available[i]-=request_mat[0][i];
-			allocated[n][i]+=request_mat[0][i];
-			need[n][i]-=request_mat[0][i];
-		}
+		
 		
 		
 		
